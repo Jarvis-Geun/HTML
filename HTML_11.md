@@ -39,9 +39,33 @@
 
 ## 3. 웹 개발자 도구
 : 웹 개발을 하는데 필요한 여러가지 기능을 모아둔 도구들로, 웹브라우저별로 비슷한 기능의 도구를 제공하고 있다. 해당 영상에서는 HTML 개발과 관련된 부분에 초점을 맞춰서 크롬 개발자 도구를 살펴본다.
+ㅀ
+- 마우스 우 클릭 : 검사, 페이지 소스 보기
+- 검사 => Toggle 클릭 => 디바이스 별로 보이는 웹페이지를 보여줌.
+- 검사 => Network : 웹페이지에 이미지 혹은 HTML 파일과 같이 다운받아야 할 파일을 알려줌
 
-- 
-
+- 추가적인 내용은 [크롬개발자 도구 수업 바로가기](https://opentutorials.org/module/306/2865) 참고
 
 ### Reference
 > https://www.youtube.com/watch?v=q_8rVZmMt6M&list=PLuHgQVnccGMDUzDDCKW-pCZQY-MMCX5yB&index=39
+
+<br>
+
+## 4. 모바일 지원
+: 만든 웹페이지를 모바일에서 보기 편하게 HTML로 구현해본다.
+
+```HTML
+<meta name="viewpoint" content="width=device-width, initial-score=1.0>
+```
+
+- meta 태그를 사용하여 모바일 환경과 데스크탑 환경에 맞게 웹페이지가 출력되도록 한다.
+- width=device-width : 폭(=width)을 device의 폭에 맞게 설정한다.
+- initial-score=1.0 : 웹페이지에 처음 들어갔을 때, 줌인 혹은 줌아웃의 정도를 설정한다. initial-score=1.0은, 웹페이지를 설정한 그대로 보여준다는 의미이다.
+- 요즘은 디바이스의 종류가 다양하므로, 사실상 기계적으로 해당 코드를 삽입해주면 된다.
+
+### Reference
+> https://www.youtube.com/watch?v=rF2nkJCH55c&list=PLuHgQVnccGMDUzDDCKW-pCZQY-MMCX5yB&index=40
+
+<br>
+
+## 5. HTML5의 새로운 제출양식 1
