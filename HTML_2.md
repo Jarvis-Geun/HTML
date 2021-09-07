@@ -6,7 +6,7 @@
 - !DOCTYPE html 태그
 
 Reference : https://www.youtube.com/watch?v=EgT5520Ztek&list=PLuHgQVnccGMDUzDDCKW-pCZQY-MMCX5yB&index=9
-<br/>
+<br>
 
 ---
 ## 웹사이트 만들기
@@ -16,6 +16,24 @@ Reference : https://www.youtube.com/watch?v=EgT5520Ztek&list=PLuHgQVnccGMDUzDDCK
 : 다른 html 파일로 연결됨
  
 Reference : https://www.youtube.com/watch?v=Tt3kr7whkb4&list=PLuHgQVnccGMDUzDDCKW-pCZQY-MMCX5yB&index=10
-<br/><br/>
+<br>
 
 ---
+## 개발도구
+- 동영상에서는 atom이라는 개발도구를 추천하였으나, 나의 경우 Visual Studio Code에서 html을 사용한다.
+
+Reference : https://www.youtube.com/watch?v=uim3Vr6crXI&list=PLuHgQVnccGMDUzDDCKW-pCZQY-MMCX5yB&index=11
+<br>
+
+---
+## HTML 단축키
+내가 사용할 때 필요하다고 생각하는 단축키를 적어본다.
+- Alt + Shift + 방향키(위, 아래) : 해당 문장 위, 아래로 붙여넣기
+
+- Alt + Shift + 방향키(오른쪽 한번, 두번) : 방향키 한번 => 해당 단어 선택(블록), 방향키 두번 => 해당 문장 선택(블록)
+
+- Alt + 방향키(위, 아래) : 해당 문장 위, 아래로 이동
+
+- Ctrl + Enter : 뒷 내용 무시하고 줄바꿈
+
+- ! + tab : html5 기본 구조 자동완성  
