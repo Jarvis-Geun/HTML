@@ -37,3 +37,14 @@ Reference : https://www.youtube.com/watch?v=uim3Vr6crXI&list=PLuHgQVnccGMDUzDDCK
 - Ctrl + Enter : 뒷 내용 무시하고 줄바꿈
 
 - ! + tab : html5 기본 구조 자동완성  
+
+---
+## 변천사와 통계
+
+- [연대기](http://www.martinrinehart.com/frontend-engineering/engineers/html/html-tag-history.html)
+
+- [통계](https://www.advancedwebranking.com/html/) : 웹페이지에서 html의 태그가 얼마나 사용되었는지 빈도수를 확인할 수 있음
+
+- 빈도수에 따라 필요한 태그를 배워가는 것이 좋음
+
+Reference : https://www.youtube.com/watch?v=9VM7du__sUY&list=PLuHgQVnccGMDUzDDCKW-pCZQY-MMCX5yB&index=12
