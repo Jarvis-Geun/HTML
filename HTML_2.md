@@ -1,4 +1,4 @@
-# 2021.09.07(TUE) 유튜브 나도코딩 HTML 강의
+# 2021.09.07(TUE) 유튜브 생활코딩 HTML 강의
 ## DOCTYPE : Document type declaration
 
 - HTML의 종류는 시간이 지남에 따라 다양해지기 때문에 어떤 HTML 형식을 사용했는지를 적어주어야 한다.
