@@ -21,6 +21,12 @@ HTML 공부내용을 정리한 저장소
 
 ## HTML_4
 - [HTML_4.md](https://github.com/Jarvis-Geun/HTML/blob/main/HTML_4.md)
-- [HTML_4_표1 : table tag, td tag, tr tag, table border 속성](https://github.com/Jarvis-Geun/HTML/blob/main/HTML_4_%ED%91%9C1.html)
-- [HTML_4_표2 : thead tag, tbody tag, tfoot tag](https://github.com/Jarvis-Geun/HTML/blob/main/HTML_4_%ED%91%9C2.html)
-- [HTML_4_표3 : 병합, td colspan 속성, td rowspan 속성](https://github.com/Jarvis-Geun/HTML/blob/main/HTML_4_%ED%91%9C3.html)
+- [HTML_4_표1](https://github.com/Jarvis-Geun/HTML/blob/main/HTML_4_%ED%91%9C1.html) : table tag, td tag, tr tag, table border 속성
+- [HTML_4_표2](https://github.com/Jarvis-Geun/HTML/blob/main/HTML_4_%ED%91%9C2.html) : thead tag, tbody tag, tfoot tag
+- [HTML_4_표3](https://github.com/Jarvis-Geun/HTML/blob/main/HTML_4_%ED%91%9C3.html) : 병합, td colspan 속성, td rowspan 속성
+
+## HTML_5
+- [HTML_5.md](https://github.com/Jarvis-Geun/HTML/blob/main/HTML_5.md)
+- [HTML_5 form_기본](https://github.com/Jarvis-Geun/HTML/blob/main/HTML_5_form_%EA%B8%B0%EB%B3%B8.html) : form tag, input tag, type 속성, name 속성
+- [HTML_5_form_문자입력](https://github.com/Jarvis-Geun/HTML/blob/main/HTML_5_form_%EB%AC%B8%EC%9E%90%EC%9E%85%EB%A0%A5.html) : textarea tag
+- [HTML_5_form_dropdown_list](https://github.com/Jarvis-Geun/HTML/blob/main/HTML_5_form_dropdown_list.html) : select tag, name 속성, option tag, value 속성
