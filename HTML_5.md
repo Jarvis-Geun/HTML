@@ -63,7 +63,9 @@
 
 위와 같이 정보를 입력하면 아래의 사이트로 연결된다.
 
-> http://localhost/login.php?id=it%27smyid&pwd=it%27smypassword&address=it%27smyaddress
+```text
+http://localhost/login.php?id=it%27smyid&pwd=it%27smypassword&address=it%27smyaddress
+```
 
 HTML과 크게 상관없는 것 같지만 그냥 생각해보면, %27은 아스키코드의 십육진법 표를 보면 `을 의미하는 것을 알 수 있다. 아스키코드로 주소도 나타내나 보다.
 <br>
@@ -167,3 +169,11 @@ http://localhost/color.php?color=검정색
 - select 태그에서 multiple을 추가해주면 다중선택이 가능하다. 단, 다중선택을 하기위해서는 ctrl을 누른 상태에서 클릭해주어야 한다. 사용자가 이에 대해 모를 수 있으므로, 추후에 배울 체크박스가 더 유용하다.
 
 ![markdown](HTML_5_dropdownlist_2.png)
+
+첫번째 색상에서 검정색, 두번째 색상에서 전부 클릭하면 아래의 주소로 이동한다.
+```text
+http://localhost/color.php?color=black&color2=red&color2=black&color2=blue
+```
+
+### Reference
+> https://www.youtube.com/watch?v=dNmubsrqDSA&list=PLuHgQVnccGMDUzDDCKW-pCZQY-MMCX5yB&index=21
