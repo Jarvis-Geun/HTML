@@ -19,6 +19,19 @@
 
 <br>
 
+```html
+<html>
+    <body>
+        <form action="http://localhost/login.php">
+            <p>아이디 : <input type="text" name="id"></p>
+            <p>비밀번호 : <input type="password" name="pwd"></p>
+            <p>주소 : <input type="text" name="address"></p>
+            <input type="submit">
+        </form>
+    </body>
+</html>
+```
+
 > 아이디 : \<input type="text" name="id">
 
 > 주소 : \<input type="text" name="address">
@@ -42,4 +55,27 @@
 HTML과 크게 상관없는 것 같지만 그냥 생각해보면, %27은 아스키코드의 십육진법 표를 보면 `을 의미하는 것을 알 수 있다. 아스키코드로 주소도 나타내나 보다.
 <br>
 
-## 
+## form : 문자입력
+```html
+<html>
+    <body>
+        <form action="">
+            <p>text : <input type="text" name="id" value="default value"></p>
+            <p>password : <input type="password" name="pwd" value="default value"></p>
+            <p>textarea : 
+            <textarea name="" id="" cols="50" rows="2">default value</textarea></p>
+        </form>
+    </body>
+</html>
+```
+![html](HTML_5_문자입력.png "출력결과")
+
+- value 속성 : 빈칸에 기본적으로 들어갈 값(default value)을 나타낸다.
+- textarea 태그 : 한 문장이 아닌 여러줄의 문장을, 임의의 칸에 써야할 경우 사용하는 태그.
+    - cols와 rows 속성을 통해 열과 행의 크기를 조정할 수 있다.
+    - textarea의 value 속성은 열린 태그와 닫힌 태그 사이에 입력한다.
+
+Reference : https://www.youtube.com/watch?v=-wMLXTISFFY&list=PLuHgQVnccGMDUzDDCKW-pCZQY-MMCX5yB&index=20
+<br>
+
+## form : dropdown list
