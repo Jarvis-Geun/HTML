@@ -88,5 +88,79 @@ http://localhost/hidden.php?id=abcd&hide=egoing
 ### Reference
 > https://www.youtube.com/watch?v=_4upG-03td8&list=PLuHgQVnccGMDUzDDCKW-pCZQY-MMCX5yB&index=25
 
+<br>
 
-## form : method
+## 3. form : method
+```HTML
+<body>
+        <form action="http://localhost/method.php">
+            <p>
+            <label>
+                id : <input type="text" name="id">
+            </label>
+            </p>
+            
+            <label>
+            <p>
+                password : <input type="password" name="pwd">
+            </p>
+            </label>
+
+            <input type="submit">
+        </form>
+    </body>
+```
+위의 코드를 바탕으로 구현된 웹에서, id : abcd와 password : 1234를 입력하면 아래의 사이트로 이동한다.
+
+```
+http://localhost/method.php?id=abcd&pwd=1234
+```
+
+여기서 문제는, 노출되어서는 안될 정보가 링크의 주소에 보여진다는 것이다. 주소에 노출되면 안되는 정보같은 경우, method 속성을 이용하여 해결한다. 아래의 코드를 참고한다.
+
+```HTML
+<form action="http://localhost/method.php" method="POST">
+```
+
+위와 같이 코드를 수정하면, 아래의 사이트 주소가 출력된다. form 태그의 정보가 출력되지 않는 것을 확인할 수 있다. method를 get 방식으로 할지, post 방식으로 할지는 서버 개발자가 결정하지만 대부분 form 태그를 사용하면 post로 한다고 생각하면 된다. 참고로 form 태그의 method default 값은 get이다.
+
+```
+http://localhost/method.php
+```
+
+### Reference
+> https://www.youtube.com/watch?v=OnX9TCSGvws&list=PLuHgQVnccGMDUzDDCKW-pCZQY-MMCX5yB&index=26
+
+<br>
+
+## 4. form : 파일 업로드
+
+```HTML
+<html>
+    <head>
+        <meta charset="UTF-8">
+    </head>
+
+    <body>
+        <form action="">
+            <input type="file">
+            <input type="submit">
+        </form>
+    </body>
+</html>
+```
+
+![출력결과](HTML_8_form_file_upload_1.png)
+
+```HTML
+        <form action="http://localhost/upload.php" method="POST" enctype="multipart/form-data">
+            <input type="file" name="profile">
+            <input type="submit">
+        </form>
+```
+- file이라는 type을 사용할 때는 항상 method="POST"와 "enctype="multipart/form-data"를 적어주어야 한다.
+- 파일 업로드의 경우, 서버 개발자와 협업해야 하므로 추후에 서버를 공부하게 될 때 제대로 배울 수 있다.
+- 중요한 것은, input 태그를 통해 파일 업로드를 할 수 있다는 것이다.
+
+### Reference
+> https://www.youtube.com/watch?v=XY5G4RN_LKg&list=PLuHgQVnccGMDUzDDCKW-pCZQY-MMCX5yB&index=27
