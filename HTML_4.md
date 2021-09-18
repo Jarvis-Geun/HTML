@@ -47,6 +47,3 @@ Reference : https://www.youtube.com/watch?v=H84fuDj1Jxs&list=PLuHgQVnccGMDUzDDCK
 - \<td rowspan='2'>병합할 내용\</td> : 2개의 행 병합
 
 Reference : https://www.youtube.com/watch?v=i7oKd-eKvdw&list=PLuHgQVnccGMDUzDDCKW-pCZQY-MMCX5yB&index=18
-<br>
-
----
