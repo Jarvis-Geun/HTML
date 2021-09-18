@@ -69,3 +69,29 @@
 <br>
 
 ## 5. HTML5의 새로운 제출양식 1
+: HTML5의 새로 추가된 input types. 개발자가 사용자의 정보 입력을 엄격하게 통제할 수 있다.
+
+```HTML
+<input type="number">
+```
+- number type은 숫자만 입력할 수 있게 한다. 숫자 이외의 문자를 입력하려 할 경우, 입력되지 않는다.
+
+```HTML
+<input type="number" min="10" max="15">
+```
+- 10 이상 15 이하의 숫자만 입력 가능하다.
+
+```HTML
+<input type="color">
+```
+- color input types : 색깔을 쉽게 선택할 수 있는 화면이 출력된다.
+
+```HTML
+<input type="data">
+```
+- data input types : 날짜를 입력할 수 있는 화면이 출력된다.
+
+- 다양한 input types : color / date / email / month / number / range / search / tel / time / url / week
+
+### Reference
+> https://opentutorials.org/module/1892/11038
