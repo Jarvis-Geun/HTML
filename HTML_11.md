@@ -9,11 +9,11 @@
 
 - robots.txt => allow vs disallow
 
-![Naver robots.txt](HTML_11_robotstxt_naver.png)
+<img src="HTML_11_robotstxt_naver.png" width="25%" height="25%" title="Naver robots.txt">
 
 => Naver robots.txt
 
-![Google robots.txt](HTML_11_robotstxt_google.png)
+<img src="HTML_11_robotstxt_google.png" width="50%" height="50%" title="Google robots.txt">
 
 => Google robots.txt
 
