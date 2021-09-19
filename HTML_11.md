@@ -55,7 +55,7 @@
 : 만든 웹페이지를 모바일에서 보기 편하게 HTML로 구현해본다.
 
 ```HTML
-<meta name="viewpoint" content="width=device-width, initial-score=1.0>
+<meta name="viewpoint" content="width=device-width, initial-score=1.0">
 ```
 
 - meta 태그를 사용하여 모바일 환경과 데스크탑 환경에 맞게 웹페이지가 출력되도록 한다.
