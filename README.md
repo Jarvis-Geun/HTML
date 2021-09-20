@@ -27,6 +27,45 @@ HTML 공부내용을 정리한 저장소
 
 ## HTML_5
 - [HTML_5.md](https://github.com/Jarvis-Geun/HTML/blob/main/HTML_5.md)
-- [HTML_5 form_기본](https://github.com/Jarvis-Geun/HTML/blob/main/HTML_5_form_%EA%B8%B0%EB%B3%B8.html) : form tag, input tag, type 속성, name 속성
+- [HTML_5_form_기본](https://github.com/Jarvis-Geun/HTML/blob/main/HTML_5_form_%EA%B8%B0%EB%B3%B8.html) : form tag, input tag, type 속성, name 속성
 - [HTML_5_form_문자입력](https://github.com/Jarvis-Geun/HTML/blob/main/HTML_5_form_%EB%AC%B8%EC%9E%90%EC%9E%85%EB%A0%A5.html) : textarea tag
 - [HTML_5_form_dropdown_list](https://github.com/Jarvis-Geun/HTML/blob/main/HTML_5_form_dropdown_list.html) : select tag, name 속성, option tag, value 속성
+
+
+## HTML_6
+- [HTML_6.md](https://github.com/Jarvis-Geun/HTML/blob/main/HTML_6.md)
+- [HTML_6_radio,checkbox.html](https://github.com/Jarvis-Geun/HTML/blob/main/HTML_6_radio%2Ccheckbox.html) : 단일선택(radio type), 다중선택(checkbox type)
+
+
+## HTML_7
+- [HTML_7.md](https://github.com/Jarvis-Geun/HTML/blob/main/HTML_7.md)
+- [HTML_7_form_button.html](https://github.com/Jarvis-Geun/HTML/blob/main/HTML_7_form_button.html) : submit type, button type, reset type, onclick="alert()"
+
+## HTML_8
+- [HTML_8.md](https://github.com/Jarvis-Geun/HTML/blob/main/HTML_8.md)
+- [HTML_8_form_file_upload.html](https://github.com/Jarvis-Geun/HTML/blob/main/HTML_8_form_file_upload.html) : file type
+- [HTML_8_form_hidden.html](https://github.com/Jarvis-Geun/HTML/blob/main/HTML_8_form_hidden.html) : hidden type
+- [HTML_8_form_label.html](https://github.com/Jarvis-Geun/HTML/blob/main/HTML_8_form_label.html) : label tag, for 속성
+- [HTML_8_method.html](https://github.com/Jarvis-Geun/HTML/blob/main/HTML_8_method.html) : method 속성
+
+
+## HTML_9
+- [HTML_9.md](https://github.com/Jarvis-Geun/HTML/blob/main/HTML_9.md)
+- [HTML_9_semantic.html](https://github.com/Jarvis-Geun/HTML/blob/main/HTML_9_semantic.html) : header tag, footer tag, nav tag, article tag, section tag
+
+
+## HTML_10
+- [HTML_10.md](https://github.com/Jarvis-Geun/HTML/blob/main/HTML_10.md)
+- [HTML_10_img_alt.html](https://github.com/Jarvis-Geun/HTML/blob/main/HTML_10_img_alt.html) : alt(=alternative) 속성
+
+
+## HTML_11
+- [HTML_11.md](https://github.com/Jarvis-Geun/HTML/blob/main/HTML_11.md)
+- [HTML_11.html](https://github.com/Jarvis-Geun/HTML/blob/main/HTML_11.html) : 모바일 지원
+- [HTML_11_new_form.html](https://github.com/Jarvis-Geun/HTML/blob/main/HTML_11_new_form.html) : HTML5의 input tag의 새로운 types
+
+
+## HTML_12
+- [HTML_12.md](https://github.com/Jarvis-Geun/HTML/blob/main/HTML_12.md)
+- [HTML_12_form_3.html](https://github.com/Jarvis-Geun/HTML/blob/main/HTML_12_form_3.html) : autocomplete, autofocus, placeholder
+- [HTML_12_form_4.html](https://github.com/Jarvis-Geun/HTML/blob/main/HTML_12_form_4.html) : required, pattern, 입력값 제한, 정규 표준식

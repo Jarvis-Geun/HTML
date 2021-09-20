@@ -35,6 +35,8 @@ http://localhost/hidden.php?id=abcd&hide=egoing
     </p>
 ```
 
+<br>
+
 ### 2.2 예제코드 : for
 ```HTML
     <p>
@@ -66,6 +68,8 @@ http://localhost/hidden.php?id=abcd&hide=egoing
 ![출력결과](HTML_8_form_label_1.png)
 
 위의 사진을 자세히 보면, label을 클릭하게 될 경우 label에 해당하는 text 칸에 커서가 이동하게 된다. 마찬가지로 password를 클릭하게 되면 password에 해당하는 text 칸으로 커서가 이동하게 된다.
+
+<br>
 
 ### 2.3 예제코드 : 다른 표현방법
 ```HTML
